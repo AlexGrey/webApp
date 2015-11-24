@@ -1,5 +1,6 @@
-package base;
+package servlets;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,25 +18,8 @@ public class MainServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-        resp.setCharacterEncoding("utf-8");
-        PrintWriter writer = resp.getWriter();
-        writer.append(
-                "<!DOCTYPE html>" +
-                        "<html>" +
-                        "<head>" +
-                            "<title>Clinic Pets</title>" +
-                        "</head>" +
-                        "<body>" +
-                            "<form action='"+ req.getContextPath() +"/web-app' method='post'>" +
-                                "Name: <input type='text' name='name'>" +
-                                "<input type='submit' value='Submit'>" +
-                            "</form>" +
-                        this.view() +
-                        "</body>" +
-                        "</html>"
-        );
-        writer.flush();
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/views/Index.jsp");
+        dispatcher.forward(req, resp);
     }
 
     @Override
@@ -51,7 +35,7 @@ public class MainServlet extends HttpServlet {
         }
         else {
             for (String user : this.users) {
-                res.append("<div>" + user  + "</div>");
+                res.append("<div style='border:1px solid grey'>" + user  + "</div>");
             }
         }
         return res.toString();
