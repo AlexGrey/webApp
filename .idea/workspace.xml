@@ -24,21 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.387096">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddUser.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/AddUser.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.645162">
-              <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+            <state vertical-scroll-proportion="-9.225806">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -47,8 +37,8 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.709678">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state vertical-scroll-proportion="-13.4838705">
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -58,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AddUserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="43" />
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ListUsersServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,75 +68,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListUsers.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/ListUsers.jsp">
+      <file leaf-file-name="UserEditServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlets/UserEditServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3133903">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5510204">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEdit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/UserEdit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.774194">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/base/User.java">
+      <file leaf-file-name="ListUsers.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/ListUsers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <element signature="docComment;class#User#0" expanded="false" />
-                <element signature="docComment;method#setId#0;class#User#0" expanded="false" />
-                <element signature="docComment;method#getId#0;class#User#0" expanded="false" />
-                <element signature="docComment;method#getName#0;class#User#0" expanded="false" />
-                <element signature="docComment;method#setName#0;class#User#0" expanded="false" />
-                <element signature="docComment;method#getPet#0;class#User#0" expanded="false" />
-                <element signature="docComment;method#addPet#0;class#User#0" expanded="false" />
-                <element signature="docComment;method#removePet#0;class#User#0" expanded="false" />
-                <element signature="docComment;method#showInfo#0;class#User#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clinic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/base/Clinic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding>
-                <element signature="docComment;class#Clinic#0" expanded="false" />
-                <element signature="docComment;method#addUser#0;class#Clinic#0" expanded="false" />
-                <element signature="docComment;method#showInfo#0;class#Clinic#0" expanded="false" />
-                <element signature="docComment;method#findByName#0;class#Clinic#0" expanded="false" />
-                <element signature="docComment;method#findByPetName#0;class#Clinic#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/UserImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#UserImpl#0;class#UserImpl#0" expanded="false" />
-                <element signature="method#UserImpl#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#UserImpl#1;class#UserImpl#0" expanded="false" />
-                <element signature="method#UserImpl#1;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#getId#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#getName#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#setName#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#getPet#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#addPet#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#removePet#0;class#UserImpl#0" expanded="false" />
-                <element signature="method#removePet#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#showInfo#0;class#UserImpl#0" expanded="false" />
-                <element signature="method#showInfo#0;class#UserImpl#0" expanded="false" />
-                <element signature="docComment;method#setId#0;class#UserImpl#0" expanded="false" />
-                <element signature="method#setId#0;class#UserImpl#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-9.451612">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,11 +104,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/ClinicImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#ClinicImpl#0" expanded="false" />
-                <element signature="method#ClinicImpl#0;class#ClinicImpl#0" expanded="false" />
-                <element signature="method#getInstance#0;class#ClinicImpl#0" expanded="false" />
+                <element signature="e#577#583#0" expanded="true" />
                 <element signature="docComment;field#counterUsers#0;class#ClinicImpl#0" expanded="false" />
                 <element signature="docComment;method#addUser#0;class#ClinicImpl#0" expanded="false" />
                 <element signature="method#addUser#0;class#ClinicImpl#0" expanded="false" />
@@ -201,8 +149,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/base/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/User.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/UserEdit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/base/UserEditServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/Index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/base/ListUsersServlet.java" />
@@ -213,12 +159,15 @@
         <option value="$PROJECT_DIR$/src/main/java/core/impl/PetImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/impl/UserImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/AddUser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/AddUserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/base/Clinic.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/impl/ClinicImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/ListUsersServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/AddUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/ListUsersServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/ListUsers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/UserEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/UserEditServlet.java" />
       </list>
     </option>
   </component>
@@ -305,8 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -483,7 +431,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1085,12 +1034,13 @@
       <option name="number" value="Default" />
       <updated>1448303789125</updated>
       <workItem from="1448303793559" duration="8258000" />
-      <workItem from="1448377530776" duration="15001000" />
+      <workItem from="1448377530776" duration="17261000" />
+      <workItem from="1448465509880" duration="11103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23259000" />
+    <option name="totallyTimeSpent" value="36622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1112,16 +1062,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15848452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22465315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.261583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3542471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16328709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1130,7 +1078,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1179,7 +1129,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/servlets/UserEditServlet.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1188,10 +1146,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/AddUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -1199,152 +1157,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3328424">
-          <caret line="1251" column="0" selection-start-line="1251" selection-start-column="0" selection-end-line="1251" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36524302">
-          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/RequestDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37301588">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webapp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/UserEdit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.096774">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/Index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.225806">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/UserEditServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/base/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Pet#0" expanded="false" />
-            <element signature="docComment;method#setName#0;class#Pet#0" expanded="false" />
-            <element signature="docComment;method#getName#0;class#Pet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/PetImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#PetImpl#0" expanded="false" />
-            <element signature="docComment;field#name#0;class#PetImpl#0" expanded="false" />
-            <element signature="docComment;field#owner#0;class#PetImpl#0" expanded="false" />
-            <element signature="docComment;method#PetImpl#0;class#PetImpl#0" expanded="false" />
-            <element signature="method#PetImpl#0;class#PetImpl#0" expanded="false" />
-            <element signature="docComment;method#getOwner#0;class#PetImpl#0" expanded="false" />
-            <element signature="docComment;method#setName#0;class#PetImpl#0" expanded="false" />
-            <element signature="docComment;method#getName#0;class#PetImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/ClinicImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#ClinicImpl#0" expanded="false" />
-            <element signature="method#ClinicImpl#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="method#getInstance#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="docComment;field#counterUsers#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="docComment;method#addUser#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="method#addUser#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="docComment;method#getUsers#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="docComment;method#removeUser#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="method#removeUser#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="docComment;method#showInfo#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="method#showInfo#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="docComment;method#findByName#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="method#findByName#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="docComment;method#findByPetName#0;class#ClinicImpl#0" expanded="false" />
-            <element signature="method#findByPetName#0;class#ClinicImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ListUsersServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.387096">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -1352,9 +1165,51 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AddUserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="43" />
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ListUsersServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/ListUsers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/PetImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;field#name#0;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;field#owner#0;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;method#PetImpl#0;class#PetImpl#0" expanded="false" />
+            <element signature="method#PetImpl#0;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;method#getOwner#0;class#PetImpl#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="docComment;method#setName#0;class#PetImpl#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#PetImpl#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1377,27 +1232,186 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/base/Clinic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#Clinic#0" expanded="false" />
+            <element signature="docComment;method#addUser#0;class#Clinic#0" expanded="false" />
+            <element signature="docComment;method#showInfo#0;class#Clinic#0" expanded="false" />
+            <element signature="docComment;method#findByName#0;class#Clinic#0" expanded="false" />
+            <element signature="docComment;method#findByPetName#0;class#Clinic#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/UserImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#UserImpl#0" expanded="false" />
             <element signature="docComment;method#UserImpl#0;class#UserImpl#0" expanded="false" />
             <element signature="method#UserImpl#0;class#UserImpl#0" expanded="false" />
             <element signature="docComment;method#UserImpl#1;class#UserImpl#0" expanded="false" />
             <element signature="method#UserImpl#1;class#UserImpl#0" expanded="false" />
             <element signature="docComment;method#getId#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
             <element signature="docComment;method#getName#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
             <element signature="docComment;method#setName#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
             <element signature="docComment;method#getPet#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1046#1047#0" expanded="false" />
             <element signature="docComment;method#addPet#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="false" />
             <element signature="docComment;method#removePet#0;class#UserImpl#0" expanded="false" />
             <element signature="method#removePet#0;class#UserImpl#0" expanded="false" />
             <element signature="docComment;method#showInfo#0;class#UserImpl#0" expanded="false" />
             <element signature="method#showInfo#0;class#UserImpl#0" expanded="false" />
             <element signature="docComment;method#setId#0;class#UserImpl#0" expanded="false" />
             <element signature="method#setId#0;class#UserImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/ClinicImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#ClinicImpl#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;field#counterUsers#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#addUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#addUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#getUsers#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#removeUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#removeUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#showInfo#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#showInfo#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#findByName#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#findByName#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#findByPetName#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#findByPetName#0;class#ClinicImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3328424">
+          <caret line="1251" column="0" selection-start-line="1251" selection-start-column="0" selection-end-line="1251" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36524302">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/RequestDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37301588">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webapp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/Index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.225806">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/base/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Pet#0" expanded="false" />
+            <element signature="docComment;method#setName#0;class#Pet#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#Pet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.387096">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/base/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#User#0" expanded="false" />
+            <element signature="docComment;method#setId#0;class#User#0" expanded="false" />
+            <element signature="docComment;method#getId#0;class#User#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#User#0" expanded="false" />
+            <element signature="docComment;method#setName#0;class#User#0" expanded="false" />
+            <element signature="docComment;method#getPet#0;class#User#0" expanded="false" />
+            <element signature="docComment;method#addPet#0;class#User#0" expanded="false" />
+            <element signature="docComment;method#removePet#0;class#User#0" expanded="false" />
+            <element signature="docComment;method#showInfo#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1416,27 +1430,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/AddUser.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/PetImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162">
-          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;field#name#0;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;field#owner#0;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;method#PetImpl#0;class#PetImpl#0" expanded="false" />
+            <element signature="method#PetImpl#0;class#PetImpl#0" expanded="false" />
+            <element signature="docComment;method#getOwner#0;class#PetImpl#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="docComment;method#setName#0;class#PetImpl#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#PetImpl#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/UserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#UserImpl#0" expanded="false" />
+            <element signature="docComment;method#UserImpl#0;class#UserImpl#0" expanded="false" />
+            <element signature="method#UserImpl#0;class#UserImpl#0" expanded="false" />
+            <element signature="docComment;method#UserImpl#1;class#UserImpl#0" expanded="false" />
+            <element signature="method#UserImpl#1;class#UserImpl#0" expanded="false" />
+            <element signature="docComment;method#getId#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="docComment;method#getName#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
+            <element signature="docComment;method#setName#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="docComment;method#getPet#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1046#1047#0" expanded="false" />
+            <element signature="docComment;method#addPet#0;class#UserImpl#0" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="false" />
+            <element signature="docComment;method#removePet#0;class#UserImpl#0" expanded="false" />
+            <element signature="method#removePet#0;class#UserImpl#0" expanded="false" />
+            <element signature="docComment;method#showInfo#0;class#UserImpl#0" expanded="false" />
+            <element signature="method#showInfo#0;class#UserImpl#0" expanded="false" />
+            <element signature="docComment;method#setId#0;class#UserImpl#0" expanded="false" />
+            <element signature="method#setId#0;class#UserImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/impl/ClinicImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ClinicImpl#0" expanded="false" />
+            <element signature="e#577#583#0" expanded="true" />
+            <element signature="docComment;field#counterUsers#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#addUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#addUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#getUsers#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#removeUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#removeUser#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#showInfo#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#showInfo#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#findByName#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#findByName#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="docComment;method#findByPetName#0;class#ClinicImpl#0" expanded="false" />
+            <element signature="method#findByPetName#0;class#ClinicImpl#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.709678">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state vertical-scroll-proportion="-13.4838705">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/AddUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.225806">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/ListUsers.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3133903">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.451612">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/ListUsersServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AddUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/UserEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.774194">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/UserEditServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5510204">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

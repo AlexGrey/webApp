@@ -10,34 +10,40 @@
     <servlet-name>MainServlet</servlet-name>
     <servlet-class>servlets.MainServlet</servlet-class>
   </servlet>
-  <servlet>
-    <servlet-name>AddUserServlet</servlet-name>
-    <servlet-class>servlets.AddUserServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>ListUsersServlet</servlet-name>
-    <servlet-class>servlets.ListUsersServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>UserEditServlet</servlet-name>
-    <servlet-class>servlets.UserEditServlet</servlet-class>
-  </servlet>
-
   <servlet-mapping>
     <servlet-name>MainServlet</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>servlets.AddUserServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>AddUserServlet</servlet-name>
     <url-pattern>/users/add</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ListUsersServlet</servlet-name>
+    <servlet-class>servlets.ListUsersServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>ListUsersServlet</servlet-name>
     <url-pattern>/users/list</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserEditServlet</servlet-name>
+    <servlet-class>servlets.UserEditServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>UserEditServlet</servlet-name>
-    <url-pattern>/users/edit</url-pattern>
+    <url-pattern>/users/edit/*</url-pattern>
   </servlet-mapping>
+
+
+
+
 
 </web-app>

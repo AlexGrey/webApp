@@ -27,6 +27,7 @@ public class AddUserServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
         userName = req.getParameter("name");
         petName = req.getParameter("pet");
         ClinicImpl.getInstance().addUser(new UserImpl(userName, petName));

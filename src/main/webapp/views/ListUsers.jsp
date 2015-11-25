@@ -1,4 +1,3 @@
-
 <%--
   Created by IntelliJ IDEA.
   User: Zver
@@ -11,14 +10,22 @@
 
 <html>
 <head>
-    <title>Title</title>
+    <meta lang="ru">
+    <title>Список Пользователей</title>
 </head>
 <body>
-<c:forEach items="${users}" var="user">
-    <tr>
-        <td>${user.name}</td>
-        <td>${user.pet.name}</td>
-    </tr>
-</c:forEach>
+<h1>Список пользователей</h1>
+<a href="${pageContext.servletContext.contextPath}/">Back</a><br>
+<table>
+    <c:forEach items="${users}"  var="user">
+        <tr>
+            <td>${user.id}</td>
+            <td>${user.name}</td>
+            <td>${user.pet.name}</td>
+            <td><a href="/users/edit/?name=${user.name}">Редактировать</a></td>
+        </tr>
+    </c:forEach>
+
+</table>
 </body>
 </html>
