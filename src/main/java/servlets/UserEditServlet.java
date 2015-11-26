@@ -22,10 +22,17 @@ public class UserEditServlet extends HttpServlet {
         if (req.getParameter("command") != null && req.getParameter("command").equals("removePet")  ) {
             user.removePet();
         }
+        if (req.getParameter("command") != null && req.getParameter("command").equals("removeUser")  ) {
+            ClinicImpl.getInstance().removeUser(user.getId());
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/views/Index.jsp");
+            dispatcher.forward(req, resp);
+        } else {
+            req.setAttribute("user", user);
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/views/UserEdit.jsp");
+            dispatcher.forward(req, resp);
+        }
 
-        req.setAttribute("user", user);
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/views/UserEdit.jsp");
-        dispatcher.forward(req, resp);
+
     }
 
     @Override

@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+web-app Maven Webapp,core.impl,UserImpl,83,0,2,0,25,0,11,0,10,0
+web-app Maven Webapp,core.impl,PetImpl,19,0,0,0,8,0,4,0,4,0
+web-app Maven Webapp,core.impl,ClinicImpl,166,0,22,0,38,0,19,0,8,0
+web-app Maven Webapp,servlets,AddUserServlet,68,0,0,0,12,0,3,0,3,0
+web-app Maven Webapp,servlets,MainServlet,12,0,0,0,4,0,2,0,2,0
+web-app Maven Webapp,servlets,UserEditServlet,113,0,12,0,21,0,9,0,3,0
+web-app Maven Webapp,servlets,ListUsersServlet,17,0,0,0,5,0,2,0,2,0

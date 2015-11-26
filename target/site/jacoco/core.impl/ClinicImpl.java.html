@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>ClinicImpl.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">web-app Maven Webapp</a> &gt; <a href="index.source.html" class="el_package">core.impl</a> &gt; <span class="el_source">ClinicImpl.java</span></div><h1>ClinicImpl.java</h1><pre class="source lang-java linenums">package core.impl;
+
+import core.base.Clinic;
+import core.base.User;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by Zver on 24.11.2015.
+ */
+public class ClinicImpl implements Clinic {
+    private static volatile ClinicImpl instance;
+
+<span class="nc" id="L15">    private ClinicImpl(){</span>
+
+<span class="nc" id="L17">    }</span>
+
+    public static ClinicImpl getInstance() {
+<span class="nc bnc" id="L20" title="All 2 branches missed.">        if (instance == null) {</span>
+<span class="nc" id="L21">            synchronized (ClinicImpl.class) {</span>
+<span class="nc bnc" id="L22" title="All 2 branches missed.">                if (instance == null) instance = new ClinicImpl();</span>
+<span class="nc" id="L23">            }</span>
+        }
+<span class="nc" id="L25">        return instance;</span>
+    }
+    
+<span class="nc" id="L28">    List&lt;User&gt; users = new ArrayList&lt;User&gt;();</span>
+
+    /**
+     * счетчик клиентов для генерации id
+     */
+<span class="nc" id="L33">    Integer counterUsers = 0;</span>
+
+    /**
+     * {@inheritDoc}
+     */
+    public void addUser(User User) {
+<span class="nc" id="L39">        counterUsers++;</span>
+<span class="nc" id="L40">        User.setId(counterUsers);</span>
+<span class="nc" id="L41">        users.add(User);</span>
+<span class="nc" id="L42">    }</span>
+
+    /***
+     * {@inheritDoc}
+     */
+    public List&lt;User&gt; getUsers() {
+<span class="nc" id="L48">        return users;</span>
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public void removeUser(Integer id) {
+<span class="nc bnc" id="L55" title="All 2 branches missed.">        for (User User : users) {</span>
+<span class="nc bnc" id="L56" title="All 2 branches missed.">            if (User.getId().equals(id)) {</span>
+<span class="nc" id="L57">                users.remove(User);</span>
+<span class="nc" id="L58">                return;</span>
+            }
+<span class="nc" id="L60">        }</span>
+<span class="nc" id="L61">        throw new NullPointerException(&quot;Клиента с таким id не существует!&quot;);</span>
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public void showInfo() {
+<span class="nc bnc" id="L68" title="All 2 branches missed.">        for (User User : users) {</span>
+<span class="nc" id="L69">            User.showInfo();</span>
+<span class="nc" id="L70">        }</span>
+<span class="nc" id="L71">    }</span>
+
+    /**
+     * {@inheritDoc}
+     */
+    public User findByName(String name) {
+<span class="nc" id="L77">        User User = null;</span>
+<span class="nc bnc" id="L78" title="All 2 branches missed.">        for (User cl : users) {</span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">            if (cl.getName().equals(name)) User = cl;</span>
+<span class="nc" id="L80">        }</span>
+<span class="nc bnc" id="L81" title="All 2 branches missed.">        if (User == null) {</span>
+<span class="nc" id="L82">            throw new NullPointerException(&quot;клиента не существует!&quot;);</span>
+        }
+<span class="nc" id="L84">        return User;</span>
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public User findByPetName(String name) {
+<span class="nc" id="L91">        User User = null;</span>
+<span class="nc bnc" id="L92" title="All 2 branches missed.">        for (User cl : users) {</span>
+<span class="nc bnc" id="L93" title="All 2 branches missed.">            if (cl.getPet().getName().equals(name)) User = cl;</span>
+<span class="nc" id="L94">        }</span>
+<span class="nc bnc" id="L95" title="All 2 branches missed.">        if (User == null) {</span>
+<span class="nc" id="L96">            throw new NullPointerException(&quot;клиента не существует!&quot;);</span>
+        }
+<span class="nc" id="L98">        return User;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
