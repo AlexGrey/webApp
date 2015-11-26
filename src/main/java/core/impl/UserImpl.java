@@ -69,7 +69,7 @@ public class UserImpl implements User {
      * {@inheritDoc}
      */
     public void removePet() {
-
+        this.pet = null;
     }
 
     /**

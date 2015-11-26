@@ -2,6 +2,7 @@ package servlets;
 
 import core.base.User;
 import core.impl.ClinicImpl;
+import core.impl.PetImpl;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -18,6 +19,10 @@ public class UserEditServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         User user = ClinicImpl.getInstance().findByName(req.getParameter("name"));
+        if (req.getParameter("command") != null && req.getParameter("command").equals("removePet")  ) {
+            user.removePet();
+        }
+
         req.setAttribute("user", user);
         RequestDispatcher dispatcher = req.getRequestDispatcher("/views/UserEdit.jsp");
         dispatcher.forward(req, resp);
@@ -25,12 +30,15 @@ public class UserEditServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setCharacterEncoding("UTF-8");
-        resp.setCharacterEncoding("UTF-8");
         String userName = req.getParameter("name");
         User user = ClinicImpl.getInstance().findByName(userName);
-        String petName = req.getParameter("petName");
-        user.getPet().setName(petName);
+        if (req.getParameter("petName") != null && user.getPet() == null) {
+            user.addPet(new PetImpl(req.getParameter("petName"), user));
+        } else {
+            String petName = req.getParameter("petName");
+            user.getPet().setName(petName);
+        }
+
         resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/users/edit/?name=" + userName));
     }
 }
