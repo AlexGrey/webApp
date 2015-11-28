@@ -8,6 +8,11 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 
 import static org.junit.Assert.*;
 
@@ -17,17 +22,16 @@ import static org.junit.Assert.*;
 public class MainServletTest extends Mockito {
 
     @Test
-    public void testDoGet() throws Exception, ServletException {
-        HttpServletRequest req = mock(HttpServletRequest.class);
-        HttpServletResponse resp = mock(HttpServletResponse.class);
+    public void testDoGet() throws Exception, ServletException, NullPointerException {
+        RequestDispatcher dispatcher = mock(RequestDispatcher.class);
+        HttpServletResponse response = mock(HttpServletResponse.class);
+        HttpServletRequest request = mock(HttpServletRequest.class);
 
-        when(req.getParameter("login")).thenReturn("test");
+        when(request.getRequestDispatcher("/views/Index.jsp")).thenReturn(dispatcher);
+        when(request.getPathInfo()).thenReturn("/");
 
-        new MainServlet().doGet(req, resp);
-
-        verify(req, atLeast(1)).getParameter("login");
+        new MainServlet().doGet(request, response);
+        verify(dispatcher).forward(request,response);
     }
-
-
 
 }

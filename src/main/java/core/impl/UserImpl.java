@@ -76,11 +76,8 @@ public class UserImpl implements User {
      * {@inheritDoc}
      */
     public void showInfo() {
-        try {
-            System.out.println("id: " + this.id + ", имя: " + this.name + ", имя питомца: " + this.pet.getName());
-        } catch (NullPointerException e) {
-            e.printStackTrace();
-        }
+        System.out.println("id: " + this.id + ", имя: " + this.name + ", имя питомца: " + this.pet.getName());
+
     }
 
     /**

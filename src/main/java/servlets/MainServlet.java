@@ -18,7 +18,6 @@ public class MainServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher dispatcher = req.getRequestDispatcher("/views/Index.jsp");
-        String t = req.getParameter("login");
         dispatcher.forward(req, resp);
     }
 
