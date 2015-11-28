@@ -16,7 +16,6 @@ INSERT INTO client (name) VALUES ('vanya');
 -- add new pet
 INSERT INTO pet (client_id, nick) VALUES (1, 'sparky');
 
-
 -- select pet with client
 SELECT pet.nick, client.name FROM pet AS pet
 INNER JOIN client AS client ON client_id = pet.client_id;
